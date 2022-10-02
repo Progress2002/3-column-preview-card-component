@@ -26,17 +26,18 @@ p {
   margin-bottom: 25px;
 }
 
-button {
+.btn {
   padding: 16px 35px;
   font-size: 17px;
   border: none;
   border-radius: 50px;
   font-weight: 700;
+  text-decoration: none;
+  background-color: hsl(0, 0%, 95%);
 }
 
-button:hover {
+.btn:hover {
   border: 3px solid hsl(0, 0%, 95%);
-  cursor: pointer;
 }
 
 #main {
@@ -60,7 +61,7 @@ button:hover {
   border-radius: 10px 10px 0 0;
 }
 
-.card-1 button {
+.card-1 .btn {
   color: hsl(31, 77%, 52%);
 }
 
@@ -68,13 +69,8 @@ button:hover {
   background-color: hsl(184, 100%, 22%);
 }
 
-.card-2 button {
+.card-2 .btn {
   color: hsl(184, 100%, 22%);
-}
-
-.card-2 button:hover {
-  color: hsla(0, 0%, 100%, 0.75);
-  background-color: inherit;
 }
 
 .card-3 {
@@ -82,13 +78,13 @@ button:hover {
   border-radius: 0 0 10px 10px;
 }
 
-.card-3 button {
+.card-3 .btn {
   color: hsl(179, 100%, 13%);
 }
 
-.card-1 button:hover,
-.card-2 button:hover,
-.card-3 button:hover {
+.card-1 .btn:hover,
+.card-2 .btn:hover,
+.card-3 .btn:hover {
   color: hsla(0, 0%, 100%, 0.75);
   background-color: inherit;
 }
